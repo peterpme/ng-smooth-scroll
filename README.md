@@ -29,24 +29,11 @@ Make sure you reference the script in your javascript:
 
 ## Usage
 
-Make sure your `reaveler-container` includes:
-```
-data-ng-revealer
-```
+`ng-smooth-scroll` looks for the target `href` and a class on the link you're looking for, ex. `scroll-to'
 
-
-### Html Structure
+Example:
 
 ```html
-<div class='revealer-container' data-ng-revealer>
-
-  <p class='visible'>Visible</p>
-  <p class='hidden'>Hidden</p>
-  <a class='btn-reveal'><i class='fa fa-plus'></i> Reveal More</a>
-
-</div>
+<a href='#one' class='scroll-to'>One</a>
+<a href='#two' class='scroll-to'>Two</a>
 ```
-
-### TODO
-
--Modernizr for jQuery-fallback transitions
