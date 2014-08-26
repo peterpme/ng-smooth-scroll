@@ -27,6 +27,12 @@ Make sure you reference the script in your javascript:
 <script src="bower_components/ng-smooth-scroll/ng-smooth-scroll.js"></script>
 ```
 
+Currently, I am adding `data-ng-smooth-scroll` to my html class, like below, but will try and come up with a better implementation.
+
+```html
+<html ng-app='example' data-ng-smooth-scroll>
+```
+
 ## Usage
 
 `ng-smooth-scroll` looks for the target `href` and a class on the link you're looking for, ex. `scroll-to'
