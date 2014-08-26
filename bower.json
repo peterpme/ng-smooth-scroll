@@ -8,7 +8,7 @@
   "main": "angular-carousel.js",
   "license": "Apache",
   "dependencies" : {
-    "angular" : "1.2.x",
+    "angular" : null,
     "jquery" : null
   },
   "keywors" : [
