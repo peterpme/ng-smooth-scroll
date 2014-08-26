@@ -5,12 +5,24 @@
         return {
             restrict: 'A',
             link: function (scope, element) {
-                console.log('[revealer] init');
+                console.log('[smoothScrol] init');
 
-                var hidden = angular.element('.hidden-content', element),
-                btn = angular.element('.btn-reveal');
+                var trigger=angular.element('.scroll-to', element);
 
-                new Revealer(btn, hidden);
+                trigger.on('click', function () {
+                    var $this = angular.element(this);
+                    target = $(this).attr('href');
+
+                    console.log(name);
+                    console.log(target.slice(1));
+                    console.log($("[name=one"));
+
+                    // $('html, body').animate({
+                    //     scrollTop: target.offset().top
+                    // }, 1000);
+
+                    return false;
+                });
             }
         }
     }]);
