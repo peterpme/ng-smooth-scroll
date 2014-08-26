@@ -1,6 +1,6 @@
 # Angular Smooth Scrolling Directive
 
-An AngularJS directive that makes scrolling seamless on your page.
+An AngularJS directive that makes scrolling seamless on your page. Based on [Chris Coyier's Smooth-Scrolling jQuery Implementation](http://css-tricks.com/snippets/jquery/smooth-scrolling/)
 
 ## Browser Support
 - Chrome, Safari, Opera, FireFox, IE
