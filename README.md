@@ -1,6 +1,6 @@
 # Angular Smooth Scrolling Directive
 
-An AngularJS directive that makes scrolling seamless on your page. Based on [Chris Coyier's Smooth-Scrolling jQuery Implementation](http://css-tricks.com/snippets/jquery/smooth-scrolling/)
+An AngularJS directive that makes scrolling seamless on your page.
 
 
 ## Browser Support
@@ -11,7 +11,7 @@ An AngularJS directive that makes scrolling seamless on your page. Based on [Chr
 Clone the repository and include directly into your project. You can also use bower and install as a dependency:
 
 ```
-bower install ng-smooth-scroll
+bower install ng-smooth-scroll --save
 ```
 
 Add the dependency in your Angular's project dependency arguments:
